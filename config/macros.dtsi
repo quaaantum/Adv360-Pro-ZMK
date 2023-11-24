@@ -1,8 +1,239 @@
+macro_ralt_q: macro_ralt_q{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_q";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp Q>, <&macro_release &kp RALT>;
+};
+macro_ralt_w: macro_ralt_w{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_w";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp W>, <&macro_release &kp RALT>;
+};
+macro_ralt_e: macro_ralt_e{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_e";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp E>, <&macro_release &kp RALT>;
+};
+macro_ralt_r: macro_ralt_r{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_r";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp R>, <&macro_release &kp RALT>;
+};
+macro_ralt_z: macro_ralt_z{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_z";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp Z>, <&macro_release &kp RALT>;
+};
+macro_ralt_u: macro_ralt_u{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_u";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp U>, <&macro_release &kp RALT>;
+};
+macro_ralt_i: macro_ralt_i{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_i";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp I>, <&macro_release &kp RALT>;
+};
+macro_ralt_o: macro_ralt_o{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_o";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp O>, <&macro_release &kp RALT>;
+};
+macro_ralt_p: macro_ralt_p{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_p";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp P>, <&macro_release &kp RALT>;
+};
+macro_ralt_a: macro_ralt_a{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_a";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp A>, <&macro_release &kp RALT>;
+};
+macro_ralt_s: macro_ralt_s{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_s";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp S>, <&macro_release &kp RALT>;
+};
+macro_ralt_d: macro_ralt_d{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_d";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp D>, <&macro_release &kp RALT>;
+};
+macro_ralt_f: macro_ralt_f{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_f";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp F>, <&macro_release &kp RALT>;
+};
+macro_ralt_g: macro_ralt_g{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_g";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp G>, <&macro_release &kp RALT>;
+};
+macro_ralt_h: macro_ralt_h{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_h";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp H>, <&macro_release &kp RALT>;
+};
+macro_ralt_j: macro_ralt_j{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_j";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp J>, <&macro_release &kp RALT>;
+};
+macro_ralt_k: macro_ralt_k{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_k";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp K>, <&macro_release &kp RALT>;
+};
+macro_ralt_l macro_ralt_l
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_l;
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp L>, <&macro_release &kp RALT>;
+};
+macro_ralt_y: macro_ralt_y{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_y";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp Y>, <&macro_release &kp RALT>;
+};
+macro_ralt_x: macro_ralt_x{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_x";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp X>, <&macro_release &kp RALT>;
+};
+macro_ralt_c: macro_ralt_c{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_c";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp C>, <&macro_release &kp RALT>;
+};
+macro_ralt_v: macro_ralt_v{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_v";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp V>, <&macro_release &kp RALT>;
+};
+macro_ralt_b: macro_ralt_b{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_b";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp B>, <&macro_release &kp RALT>;
+};
+macro_ralt_n: macro_ralt_n{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_n";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp N>, <&macro_release &kp RALT>;
+};
+macro_ralt_m: macro_ralt_m{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_m";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp M>, <&macro_release &kp RALT>;
+};
+macro_ralt_equal: macro_ralt_equal{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_equal";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp EQUAL>, <&macro_release &kp RALT>;
+};
+macro_ralt_grave: macro_ralt_grave{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_grave";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp GRAVE>, <&macro_release &kp RALT>;
+};
+macro_ralt_left: macro_ralt_left{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_left";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp LEFT>, <&macro_release &kp RALT>;
+};
+macro_ralt_right: macro_ralt_right{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_right";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp RIGHT>, <&macro_release &kp RALT>;
+};
+macro_ralt_semi: macro_ralt_semi{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_semi";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp SEMI>, <&macro_release &kp RALT>;
+};
+macro_ralt_slash: macro_ralt_slash{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_slash";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp SLASH>, <&macro_release &kp RALT>;
+};
+macro_ralt_minus: macro_ralt_minus{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_minus";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp MINUS>, <&macro_release &kp RALT>;
+};
+macro_ralt_backslash: macro_ralt_backslash{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_backslash";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp BACKSLASH>, <&macro_release &kp RALT>;
+};
+macro_ralt_apos: macro_ralt_apos{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_apos";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp APOS>, <&macro_release &kp RALT>;
+};
+macro_ralt_lbracket: macro_ralt_lbracket{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_lbracket";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp LEFT_BRACKET>, <&macro_release &kp RALT>;
+};
+macro_ralt_rbracket: macro_ralt_rbracket{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_rbracket";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp RIGHT_BRACKET>, <&macro_release &kp RALT>;
+};
+macro_ralt_up: macro_ralt_up{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_up";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp UP>, <&macro_release &kp RALT>;
+};
+macro_ralt_down: macro_ralt_down{
+    compatible = "zmk,behavior-macro";
+    label = "macro_ralt_down";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp DOWN>, <&macro_release &kp RALT>;
+};
+
+
+
 macro_euro: macro_euro{
-compatible = "zmk,behavior-macro";
-label = "macro_euro";
-#binding-cells = <0>;
-bindings = <&macro_press &kp RALT>, <&macro_tap &kp E>, <&macro_release &kp RALT>;
+    compatible = "zmk,behavior-macro";
+    label = "macro_euro";
+    #binding-cells = <0>;
+    bindings = <&macro_press &kp RALT>, <&macro_tap &kp E>, <&macro_release &kp RALT>;
 };
 macro_ae: macro_ae{
 compatible = "zmk,behavior-macro";
