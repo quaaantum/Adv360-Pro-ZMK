@@ -48,11 +48,11 @@
 
         layer_special {
             bindings = <
-   &kp F11      &kp F1      &kp F2       &kp F3     &kp F4      &kp F5            &none                                                                        &none  &kp F6     &kp F7      &kp F8                &kp F9                &kp F10     &kp F12
-     &none  &kp RA(N2)  &kp RA(N3)  &macro_euro  &kp RA(R)  &kp RA(N7)            &none                                                                        &none   &none  &kp RA(Y)       &none             &kp RA(P)                  &none       &none
-     &none   &kp RA(Q)   &kp RA(S)    &kp RA(D)      &none       &none            &none  &kp LEFT_CONTROL  &kp LEFT_ALT                  &kp LGUI  &kp RCTRL   &none   &none      &none  &kp RA(N7)            &kp RA(N8)          &kp RA(EQUAL)       &none
- &kp LSHFT   &kp RA(A)       &none    &kp RA(C)      &none       &none                                            &none                     &none                      &none      &none  &kp RA(N2)            &kp RA(N3)      &kp RA(SEMICOLON)  &kp RSHIFT
-     &none       &none       &none        &none      &none                        &none             &none         &none                     &none      &none   &none              &none       &none  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)       &none
+   &kp F11          &kp F1        &kp F2           &kp F3          &kp F4  &kp F5                &none                                                                           &none  &kp F6     &kp F7  &kp F8     &kp F9  &kp F10     &kp F12
+     &none  &macro_squared  &macro_cubed      &macro_euro  &macro_regmark   &none            &macro_sz                                                                       &macro_ue   &none  &macro_ue   &none  &macro_oe    &none       &none
+     &none       &macro_ae     &macro_sz            &none           &none   &none            &macro_ae  &kp LEFT_CONTROL  &kp LEFT_ALT                  &kp LGUI  &kp RCTRL  &macro_oe   &none      &none   &none      &none    &none       &none
+ &kp LSHFT           &none         &none  &macro_copymark           &none   &none                                                &none                     &none                         &none      &none   &none      &none    &none  &kp RSHIFT
+     &none           &none         &none            &none           &none                        &none             &none         &none                     &none      &none      &none              &none   &none      &none    &none       &none
             >;
         };
 
