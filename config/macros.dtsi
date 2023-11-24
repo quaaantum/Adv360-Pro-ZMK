@@ -106,9 +106,9 @@ label = "macro_ralt_k";
 #binding-cells = <0>;
 bindings = <&macro_press &kp RALT>, <&macro_tap &kp L>, <&macro_release &kp RALT>;
 };
-macro_ralt_l macro_ralt_l{
+macro_ralt_l: macro_ralt_l{
 compatible = "zmk,behavior-macro";
-label = "macro_ralt_l;
+label = "macro_ralt_l";
 #binding-cells = <0>;
 bindings = <&macro_press &kp RALT>, <&macro_tap &kp L>, <&macro_release &kp RALT>;
 };
