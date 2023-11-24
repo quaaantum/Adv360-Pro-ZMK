@@ -38,21 +38,21 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1        &kp N2    &kp N3     &kp N4  &kp N5                &mo 2                                                                 &mo 2  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q         &kp W     &kp E      &kp R   &kp T            &kp RA(S)                                                             &kp RA(Y)   &kp Z   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A         &kp S     &kp D      &kp F   &kp G            &kp RA(Q)  &kp LCTRL  &kp LALT                   &kp RALT  &kp RCTRL  &kp RA(P)   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Y         &kp X     &kp C      &kp V   &kp B                                  &kp HOME                  &kp PG_UP                         &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 1  &kp GRAVE  &kp LEFT_WIN  &kp LEFT  &kp RIGHT                     &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 1
+ &kp EQUAL     &kp N1        &kp N2    &kp N3     &kp N4  &kp N5                    &mo 2                                                                     &mo 2  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+   &kp TAB      &kp Q         &kp W     &kp E      &kp R   &kp T            &macro_ralt_s                                                             &macro_ralt_u   &kp Z   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+   &kp ESC      &kp A         &kp S     &kp D      &kp F   &kp G            &macro_ralt_a  &kp LCTRL  &kp LALT                   &kp RALT  &kp RCTRL  &macro_ralt_o   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT      &kp Y         &kp X     &kp C      &kp V   &kp B                                      &kp HOME                  &kp PG_UP                             &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 1  &kp GRAVE  &kp LEFT_WIN  &kp LEFT  &kp RIGHT                         &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER      &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 1
             >;
         };
 
         layer_special {
             bindings = <
-   &kp F11             &kp F1         &kp F2            &kp F3             &kp F4         &kp F5                    &none                                                                               &none         &kp F6          &kp F7            &kp F8                &kp F9               &kp F10                &kp F12
-     &none      &macro_ralt_q  &macro_ralt_w     &macro_ralt_e      &macro_ralt_r          &none            &macro_ralt_s                                                                       &macro_ralt_u          &none   &macro_ralt_u     &macro_ralt_i         &macro_ralt_o                 &none  &macro_ralt_backslash
-     &none      &macro_ralt_a  &macro_ralt_s     &macro_ralt_d      &macro_ralt_f  &macro_ralt_g            &macro_ralt_a  &kp LEFT_CONTROL  &kp LEFT_ALT                  &kp LGUI  &kp RCTRL  &macro_ralt_o  &macro_ralt_h   &macro_ralt_j             &none                 &none      &macro_ralt_semi       &macro_ralt_apos
- &kp LSHFT      &macro_ralt_y  &macro_ralt_x     &macro_ralt_c      &macro_ralt_v  &macro_ralt_b                                                    &none                     &none                            &macro_ralt_n   &macro_ralt_m             &none                 &none     &macro_ralt_slash             &kp RSHIFT
-     &none  &macro_ralt_grave          &none  &macro_ralt_left  &macro_ralt_right                                   &none             &none         &none                     &none      &none          &none                 &macro_ralt_up  &macro_ralt_down  &macro_ralt_lbracket  &macro_ralt_rbracket                  &none
+   &kp F11             &kp F1             &kp F2            &kp F3             &kp F4         &kp F5                    &none                                                                               &none         &kp F6          &kp F7             &kp F8                &kp F9               &kp F10                &kp F12
+     &none      &macro_ralt_q      &macro_ralt_w     &macro_ralt_e      &macro_ralt_r  &macro_ralt_t            &macro_ralt_s                                                                       &macro_ralt_u  &macro_ralt_u   &macro_ralt_u      &macro_ralt_i         &macro_ralt_o         &macro_ralt_p  &macro_ralt_backslash
+     &none      &macro_ralt_a      &macro_ralt_s     &macro_ralt_d      &macro_ralt_f  &macro_ralt_g            &macro_ralt_a  &kp LEFT_CONTROL  &kp LEFT_ALT                  &kp LGUI  &kp RCTRL  &macro_ralt_o  &macro_ralt_h   &macro_ralt_j      &macro_ralt_k         &macro_ralt_l      &macro_ralt_semi       &macro_ralt_apos
+ &kp LSHFT      &macro_ralt_y      &macro_ralt_x     &macro_ralt_c      &macro_ralt_v  &macro_ralt_b                                                    &none                     &none                            &macro_ralt_n   &macro_ralt_m  &macro_ralt_comma       &macro_ralt_dot     &macro_ralt_slash             &kp RSHIFT
+     &none  &macro_ralt_grave  &macro_ralt_grave  &macro_ralt_left  &macro_ralt_right                                   &none             &none         &none                     &none      &none          &none                 &macro_ralt_up   &macro_ralt_down  &macro_ralt_lbracket  &macro_ralt_rbracket                  &none
             >;
         };
 
